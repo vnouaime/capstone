@@ -1,0 +1,10 @@
+.thankyou-container {
+  margin-top: 200px;
+}
+
+.thankyou-card {
+    width: 60rem;
+    height: 10rem;
+    border: 5px solid rgb(137, 225, 169);
+    border-radius: 10px;
+}

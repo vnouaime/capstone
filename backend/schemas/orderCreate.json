@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "products",
+        "total",
+        "shippingAddress"
+    ],
+    "properties": {
+        "products": {
+            "type": "array",
+            "default": [],
+            "title": "The products Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "W000007888",
+                    "DZ912379173"
+                ]
+            },
+            "examples": [
+                ["W000007888",
+                    "DZ912379173"
+                ]
+            ]
+        },
+        "total": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The total Schema",
+            "examples": [
+                345.23
+            ]
+        },
+        "shippingAddress": {
+            "type": "string",
+            "default": "",
+            "title": "The shippingAddress Schema",
+            "examples": [
+                "101 testing2 road, Test2, MA, 54321"
+            ]
+        }
+    },
+    "examples": [{
+        "products": [
+            "W000007888",
+            "DZ912379173"
+        ],
+        "total": 345.23,
+        "shippingAddress": "101 testing2 road, Test2, MA, 54321"
+    }]
+}

@@ -1,0 +1,17 @@
+.profileForm-header {
+    margin-top: 30px;
+}
+
+.profileForm-card {
+    border-color: rgb(137, 225, 169);
+}
+
+.profileForm-input {
+    border-color: rgb(137, 225, 169);
+}
+
+.profileForm-button {
+    border-color:rgb(137, 225, 169);
+    background-color: rgb(137, 225, 169);
+    color: white;
+}

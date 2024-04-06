@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "productSku",
+        "action",
+        "productPrice"
+    ],
+    "properties": {
+        "productSku": {
+            "type": "string",
+            "default": "",
+            "title": "The productSku Schema",
+            "examples": [
+                "KZ231131313"
+            ]
+        },
+        "action": {
+            "type": "string",
+            "default": "",
+            "title": "The action Schema",
+            "examples": [
+                "add"
+            ]
+        },
+        "productPrice": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The productPrice Schema",
+            "examples": [
+                102.34
+            ]
+        }
+    },
+    "examples": [{
+        "productSku": "KZ231131313",
+        "action": "add",
+        "productPrice": 102.34
+    }]
+}

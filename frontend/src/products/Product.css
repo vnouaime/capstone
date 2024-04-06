@@ -1,0 +1,23 @@
+.product-container {
+   width: 80%
+}
+
+.product-rating {
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.product-price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-accordion .accordion-item {
+    border-color: rgb(137, 225, 169);
+}
+
+.product-add-button {
+    border-color: rgb(137, 225, 169);
+    background-color: rgb(137, 225, 169);
+    margin-bottom: 20px;
+}

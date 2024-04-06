@@ -1,0 +1,10 @@
+.orders-header {
+    margin-top: 30px;
+}
+
+.orders-table {
+    margin-top: 30px;
+    width: 70%;
+    height: 20rem;
+    border-color: rgb(137, 225, 169)
+}

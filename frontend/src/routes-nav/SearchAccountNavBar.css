@@ -1,0 +1,21 @@
+nav {
+    background-color: rgb(137, 225, 169);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.links {
+    /* overiding bootstrap customizations */
+    font-size: 1.2rem !important;
+    
+    color: white;
+}
+
+.links .dropdown-toggle {
+    font-size: 1.2rem;
+    color: white;
+}

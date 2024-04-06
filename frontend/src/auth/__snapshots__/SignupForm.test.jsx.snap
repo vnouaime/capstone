@@ -1,0 +1,148 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="SignupForm container"
+  >
+    <div
+      class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mb-5 container"
+    >
+      <h1
+        class="signupform-header mb-3 text-center"
+      >
+        Sign Up
+      </h1>
+      <div
+        class="signupform-card card"
+      >
+        <div
+          class="card-body"
+        >
+          <form
+            class=""
+          >
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="username"
+              >
+                Username
+              </label>
+              <input
+                class="signupform-input form-control"
+                id="username"
+                name="username"
+                placeholder="Username"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                class="signupform-input form-control"
+                id="password"
+                minlength="5"
+                name="password"
+                placeholder="Password"
+                required=""
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="firstName"
+              >
+                First Name
+              </label>
+              <input
+                class="signupform-input form-control"
+                id="firstName"
+                name="firstName"
+                placeholder="First Name"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3"
+            >
+              <label
+                class="form-label"
+                for="lastName"
+              >
+                Last Name
+              </label>
+              <input
+                class="signupform-input form-control"
+                id="lastName"
+                name="lastName"
+                placeholder="Last Name"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3 col"
+            >
+              <label
+                class="form-label"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="signupform-input form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required=""
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              class="d-flex justify-content-end"
+            >
+              <button
+                class="signupform-button btn btn-primary"
+                data-testid="signup-button"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div
+      class="text-center"
+    >
+      Already have an account? 
+      <a
+        href="/login"
+      >
+        Log in here
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

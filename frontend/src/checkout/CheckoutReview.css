@@ -1,0 +1,10 @@
+.review-card {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    border-color: rgb(137, 225, 169)
+}
+
+.review-header {
+    border-color: rgb(137, 225, 169);
+}

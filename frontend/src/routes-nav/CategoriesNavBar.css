@@ -1,0 +1,16 @@
+.navbar {
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    font-size: 14px;
+    display: inline-block; 
+    width: auto; 
+    white-space: nowrap; 
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+

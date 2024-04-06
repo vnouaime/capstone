@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-center align-items-center container"
+    style="height: 100vh;"
+  >
+    <div
+      class="loadingSpinner spinner-border"
+      role="status"
+    >
+      <span
+        class="visually-hidden"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

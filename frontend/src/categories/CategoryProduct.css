@@ -1,0 +1,11 @@
+.categoryProduct-card {
+    height: 30rem;
+    width: 25rem;
+    border-color: rgb(137, 225, 169);
+    background-color: #f8f9fa;
+}
+
+.categoryProduct-title {
+    text-decoration: none;
+    color: black
+}

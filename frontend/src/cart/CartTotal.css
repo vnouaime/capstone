@@ -1,0 +1,17 @@
+.checkout {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    height: 20rem;
+    margin-right: 10px;
+}
+
+.checkout-table tr {
+    background-color: #f8f9fa !important;
+    text-align: center;
+}
+
+.cart-checkout-button {
+    border-color: rgb(137, 225, 169);
+    background-color: rgb(137, 225, 169);
+    width: 100%;
+}
